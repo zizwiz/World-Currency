@@ -15,14 +15,14 @@ namespace world_currency
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            cmbobx_currency_number.SelectedIndex = 0;
             cmbobx_country.SelectedIndex = 0;
-
+            cmbobx_currency_number.SelectedIndex = 0;
+            
             lbl_country.Visible = true;
             lbl_currency_number.Visible = false;
 
             cmbobx_country.Visible = true;
-            cmbobx_currency_number.Visible = true;
+            cmbobx_currency_number.Visible = false;
 
             flag = true;
 
@@ -80,8 +80,11 @@ namespace world_currency
                 if (data["CurrencyName"].InnerText != "")
                     rchtxbx_output.AppendText("Currency Name = " + data["CurrencyName"].InnerText + "\r");
 
+                if (data["Currency2LetterName"].InnerText != "")
+                    rchtxbx_output.AppendText("Currency 2 Letter Code = " + data["Currency2LetterName"].InnerText + "\r");
+
                 if (data["Currency3LetterName"].InnerText != "")
-                    rchtxbx_output.AppendText("Currency Code = " + data["Currency3LetterName"].InnerText + "\r");
+                    rchtxbx_output.AppendText("Currency 3 Letter Code = " + data["Currency3LetterName"].InnerText + "\r");
 
                 if (data["CurrencyNumber"].InnerText != "")
                     rchtxbx_output.AppendText("Currency Number = " + data["CurrencyNumber"].InnerText + "\r");

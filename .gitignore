@@ -3,3 +3,8 @@
 ################################################################################
 
 /world_currency/bin/Debug
+/world_currency/obj/Debug
+/.vs/world_currency/v16
+/.vs/World-Currency/v16
+/.vs
+/world_currency/obj/Release
