@@ -314,6 +314,26 @@
     <Content Include="data\flags\tv.png" />
     <Content Include="data\flags\tw.png" />
     <Content Include="data\flags\tz.png" />
+    <Content Include="data\flags\ua.png" />
+    <Content Include="data\flags\ug.png" />
+    <Content Include="data\flags\um.png" />
+    <Content Include="data\flags\us.png" />
+    <Content Include="data\flags\uy.png" />
+    <Content Include="data\flags\uz.png" />
+    <Content Include="data\flags\va.png" />
+    <Content Include="data\flags\vc.png" />
+    <Content Include="data\flags\ve.png" />
+    <Content Include="data\flags\vg.png" />
+    <Content Include="data\flags\vi.png" />
+    <Content Include="data\flags\vn.png" />
+    <Content Include="data\flags\vu.png" />
+    <Content Include="data\flags\wf.png" />
+    <Content Include="data\flags\ws.png" />
+    <Content Include="data\flags\ye.png" />
+    <Content Include="data\flags\yt.png" />
+    <Content Include="data\flags\za.png" />
+    <Content Include="data\flags\zm.png" />
+    <Content Include="data\flags\zw.png" />
     <Content Include="data\ISO_4217.xml" />
     <Content Include="money.ico" />
   </ItemGroup>
