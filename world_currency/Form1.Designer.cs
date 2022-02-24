@@ -29,8 +29,8 @@ namespace world_currency
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.rchtxbx_output = new System.Windows.Forms.RichTextBox();
             this.cmbobx_currency_number = new System.Windows.Forms.ComboBox();
             this.lbl_currency_number = new System.Windows.Forms.Label();
             this.lbl_country = new System.Windows.Forms.Label();
@@ -42,36 +42,28 @@ namespace world_currency
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.dgv_data = new System.Windows.Forms.DataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewImageColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewImageColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewImageColumn();
+            this._flag = new System.Windows.Forms.DataGridViewImageColumn();
+            this.CurrencyData = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.banknote_f = new System.Windows.Forms.DataGridViewImageColumn();
+            this.banknote_b = new System.Windows.Forms.DataGridViewImageColumn();
             this.groupBox1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_data)).BeginInit();
             this.panel2.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
-            this.panel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // rchtxbx_output
-            // 
-            this.rchtxbx_output.Location = new System.Drawing.Point(9, 24);
-            this.rchtxbx_output.Name = "rchtxbx_output";
-            this.rchtxbx_output.Size = new System.Drawing.Size(284, 374);
-            this.rchtxbx_output.TabIndex = 1;
-            this.rchtxbx_output.Text = "";
             // 
             // cmbobx_currency_number
             // 
@@ -258,7 +250,7 @@ namespace world_currency
             "994",
             "997",
             "999"});
-            this.cmbobx_currency_number.Location = new System.Drawing.Point(325, 16);
+            this.cmbobx_currency_number.Location = new System.Drawing.Point(243, 16);
             this.cmbobx_currency_number.Name = "cmbobx_currency_number";
             this.cmbobx_currency_number.Size = new System.Drawing.Size(454, 21);
             this.cmbobx_currency_number.TabIndex = 2;
@@ -266,7 +258,7 @@ namespace world_currency
             // lbl_currency_number
             // 
             this.lbl_currency_number.AutoSize = true;
-            this.lbl_currency_number.Location = new System.Drawing.Point(175, 18);
+            this.lbl_currency_number.Location = new System.Drawing.Point(93, 18);
             this.lbl_currency_number.Name = "lbl_currency_number";
             this.lbl_currency_number.Size = new System.Drawing.Size(142, 13);
             this.lbl_currency_number.TabIndex = 3;
@@ -275,7 +267,7 @@ namespace world_currency
             // lbl_country
             // 
             this.lbl_country.AutoSize = true;
-            this.lbl_country.Location = new System.Drawing.Point(175, 17);
+            this.lbl_country.Location = new System.Drawing.Point(93, 17);
             this.lbl_country.Name = "lbl_country";
             this.lbl_country.Size = new System.Drawing.Size(96, 13);
             this.lbl_country.TabIndex = 5;
@@ -564,7 +556,7 @@ namespace world_currency
             "ZZ09_Palladium",
             "ZZ10_Platinum",
             "ZZ11_Silver"});
-            this.cmbobx_country.Location = new System.Drawing.Point(325, 16);
+            this.cmbobx_country.Location = new System.Drawing.Point(243, 16);
             this.cmbobx_country.Name = "cmbobx_country";
             this.cmbobx_country.Size = new System.Drawing.Size(454, 21);
             this.cmbobx_country.TabIndex = 4;
@@ -572,7 +564,7 @@ namespace world_currency
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(277, 20);
+            this.label1.Location = new System.Drawing.Point(206, 20);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(176, 13);
             this.label1.TabIndex = 8;
@@ -580,7 +572,7 @@ namespace world_currency
             // 
             // btn_find
             // 
-            this.btn_find.Location = new System.Drawing.Point(60, 28);
+            this.btn_find.Location = new System.Drawing.Point(22, 28);
             this.btn_find.Name = "btn_find";
             this.btn_find.Size = new System.Drawing.Size(138, 72);
             this.btn_find.TabIndex = 9;
@@ -593,7 +585,7 @@ namespace world_currency
             this.rdobtn_country_name.AutoSize = true;
             this.rdobtn_country_name.Checked = true;
             this.rdobtn_country_name.Location = new System.Drawing.Point(9, 15);
-            this.rdobtn_country_name.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rdobtn_country_name.Margin = new System.Windows.Forms.Padding(2);
             this.rdobtn_country_name.Name = "rdobtn_country_name";
             this.rdobtn_country_name.Size = new System.Drawing.Size(99, 20);
             this.rdobtn_country_name.TabIndex = 10;
@@ -606,7 +598,7 @@ namespace world_currency
             // 
             this.rdo_currency_number.AutoSize = true;
             this.rdo_currency_number.Location = new System.Drawing.Point(112, 14);
-            this.rdo_currency_number.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rdo_currency_number.Margin = new System.Windows.Forms.Padding(2);
             this.rdo_currency_number.Name = "rdo_currency_number";
             this.rdo_currency_number.Size = new System.Drawing.Size(114, 20);
             this.rdo_currency_number.TabIndex = 11;
@@ -617,10 +609,10 @@ namespace world_currency
             // 
             this.groupBox1.Controls.Add(this.rdo_currency_number);
             this.groupBox1.Controls.Add(this.rdobtn_country_name);
-            this.groupBox1.Location = new System.Drawing.Point(455, 6);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Location = new System.Drawing.Point(384, 6);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox1.Size = new System.Drawing.Size(245, 36);
             this.groupBox1.TabIndex = 12;
             this.groupBox1.TabStop = false;
@@ -637,7 +629,7 @@ namespace world_currency
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 140F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1236, 571);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(994, 571);
             this.tableLayoutPanel1.TabIndex = 13;
             // 
             // panel1
@@ -646,8 +638,44 @@ namespace world_currency
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1230, 425);
+            this.panel1.Size = new System.Drawing.Size(988, 425);
             this.panel1.TabIndex = 0;
+            // 
+            // panel6
+            // 
+            this.panel6.Controls.Add(this.dgv_data);
+            this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel6.Location = new System.Drawing.Point(0, 0);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(988, 425);
+            this.panel6.TabIndex = 0;
+            // 
+            // dgv_data
+            // 
+            this.dgv_data.AllowUserToAddRows = false;
+            this.dgv_data.AllowUserToDeleteRows = false;
+            this.dgv_data.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dgv_data.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_data.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this._flag,
+            this.CurrencyData,
+            this.banknote_f,
+            this.banknote_b});
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_data.DefaultCellStyle = dataGridViewCellStyle1;
+            this.dgv_data.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgv_data.Location = new System.Drawing.Point(0, 0);
+            this.dgv_data.Name = "dgv_data";
+            this.dgv_data.ReadOnly = true;
+            this.dgv_data.RowHeadersWidth = 62;
+            this.dgv_data.Size = new System.Drawing.Size(988, 425);
+            this.dgv_data.TabIndex = 2;
             // 
             // panel2
             // 
@@ -655,7 +683,7 @@ namespace world_currency
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(3, 434);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1230, 134);
+            this.panel2.Size = new System.Drawing.Size(988, 134);
             this.panel2.TabIndex = 1;
             // 
             // tableLayoutPanel2
@@ -672,17 +700,17 @@ namespace world_currency
             this.tableLayoutPanel2.RowCount = 2;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1230, 134);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(988, 134);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
             // panel3
             // 
             this.panel3.Controls.Add(this.btn_find);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(999, 3);
+            this.panel3.Location = new System.Drawing.Point(803, 3);
             this.panel3.Name = "panel3";
             this.tableLayoutPanel2.SetRowSpan(this.panel3, 2);
-            this.panel3.Size = new System.Drawing.Size(228, 128);
+            this.panel3.Size = new System.Drawing.Size(182, 128);
             this.panel3.TabIndex = 0;
             // 
             // panel4
@@ -692,7 +720,7 @@ namespace world_currency
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel4.Location = new System.Drawing.Point(3, 3);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(990, 61);
+            this.panel4.Size = new System.Drawing.Size(794, 61);
             this.panel4.TabIndex = 1;
             // 
             // panel5
@@ -704,77 +732,50 @@ namespace world_currency
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel5.Location = new System.Drawing.Point(3, 70);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(990, 61);
+            this.panel5.Size = new System.Drawing.Size(794, 61);
             this.panel5.TabIndex = 2;
             // 
-            // panel6
+            // _flag
             // 
-            this.panel6.Controls.Add(this.dataGridView1);
-            this.panel6.Controls.Add(this.rchtxbx_output);
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel6.Location = new System.Drawing.Point(0, 0);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(1230, 425);
-            this.panel6.TabIndex = 0;
+            this._flag.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this._flag.HeaderText = "Flag";
+            this._flag.MinimumWidth = 8;
+            this._flag.Name = "_flag";
+            this._flag.ReadOnly = true;
+            this._flag.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             // 
-            // dataGridView1
+            // CurrencyData
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4});
-            this.dataGridView1.Location = new System.Drawing.Point(328, 24);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.Size = new System.Drawing.Size(869, 374);
-            this.dataGridView1.TabIndex = 2;
+            this.CurrencyData.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.CurrencyData.HeaderText = "Currency Data";
+            this.CurrencyData.MinimumWidth = 8;
+            this.CurrencyData.Name = "CurrencyData";
+            this.CurrencyData.ReadOnly = true;
+            this.CurrencyData.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
-            // Column1
+            // banknote_f
             // 
-            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column1.HeaderText = "Flag";
-            this.Column1.MinimumWidth = 8;
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            this.Column1.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.banknote_f.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.banknote_f.HeaderText = "Banknote Front";
+            this.banknote_f.MinimumWidth = 8;
+            this.banknote_f.Name = "banknote_f";
+            this.banknote_f.ReadOnly = true;
+            this.banknote_f.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             // 
-            // Column2
+            // banknote_b
             // 
-            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column2.HeaderText = "Currency Data";
-            this.Column2.MinimumWidth = 8;
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
-            this.Column2.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            // 
-            // Column3
-            // 
-            this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column3.HeaderText = "Banknote Front";
-            this.Column3.MinimumWidth = 8;
-            this.Column3.Name = "Column3";
-            this.Column3.ReadOnly = true;
-            this.Column3.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // Column4
-            // 
-            this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column4.HeaderText = "Banknote Back";
-            this.Column4.MinimumWidth = 8;
-            this.Column4.Name = "Column4";
-            this.Column4.ReadOnly = true;
-            this.Column4.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.banknote_b.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.banknote_b.HeaderText = "Banknote Back";
+            this.banknote_b.MinimumWidth = 8;
+            this.banknote_b.Name = "banknote_b";
+            this.banknote_b.ReadOnly = true;
+            this.banknote_b.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1236, 571);
+            this.ClientSize = new System.Drawing.Size(994, 571);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
@@ -784,6 +785,8 @@ namespace world_currency
             this.groupBox1.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
+            this.panel6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_data)).EndInit();
             this.panel2.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
@@ -791,14 +794,11 @@ namespace world_currency
             this.panel4.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            this.panel6.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.RichTextBox rchtxbx_output;
         private System.Windows.Forms.ComboBox cmbobx_currency_number;
         private System.Windows.Forms.Label lbl_currency_number;
         private System.Windows.Forms.Label lbl_country;
@@ -813,14 +813,14 @@ namespace world_currency
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewImageColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewImageColumn Column3;
-        private System.Windows.Forms.DataGridViewImageColumn Column4;
+        private System.Windows.Forms.DataGridView dgv_data;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.DataGridViewImageColumn _flag;
+        private System.Windows.Forms.DataGridViewTextBoxColumn CurrencyData;
+        private System.Windows.Forms.DataGridViewImageColumn banknote_f;
+        private System.Windows.Forms.DataGridViewImageColumn banknote_b;
     }
 }
 

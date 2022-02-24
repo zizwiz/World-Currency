@@ -1,7 +1,10 @@
 ﻿using System;
+using System.Drawing;
 using System.IO;
+using System.Resources;
 using System.Windows.Forms;
 using System.Xml;
+using world_currency.Properties;
 
 namespace world_currency
 {
@@ -35,7 +38,8 @@ namespace world_currency
         private void rdobtn_country_name_CheckedChanged(object sender, EventArgs e)
         {
             flag = rdobtn_country_name.Checked;
-            rchtxbx_output.Clear();
+            dgv_data.Rows.Clear();
+            dgv_data.Refresh();
 
             if (flag)
             {
@@ -53,7 +57,8 @@ namespace world_currency
         {
             string _sNode = "";
 
-            rchtxbx_output.Clear();
+            dgv_data.Rows.Clear();
+            dgv_data.Refresh();
 
             XmlDocument doc = new XmlDocument();
             doc.Load("ISO_4217.xml");
@@ -74,26 +79,47 @@ namespace world_currency
 
             foreach (XmlNode data in nodeList)
             {
-                if (data["CountryName"].InnerText != "")
-                    rchtxbx_output.AppendText("Country Name = " + data["CountryName"].InnerText + "\r");
+                //if (data["CountryName"].InnerText != "")
+                //    rchtxbx_output.AppendText("Country Name = " + data["CountryName"].InnerText + "\r");
 
-                if (data["CurrencyName"].InnerText != "")
-                    rchtxbx_output.AppendText("Currency Name = " + data["CurrencyName"].InnerText + "\r");
+                //if (data["CurrencyName"].InnerText != "")
+                //    rchtxbx_output.AppendText("Currency Name = " + data["CurrencyName"].InnerText + "\r");
 
-                if (data["Currency2LetterName"].InnerText != "")
-                    rchtxbx_output.AppendText("Currency 2 Letter Code = " + data["Currency2LetterName"].InnerText + "\r");
+                //if (data["Currency2LetterName"].InnerText != "")
+                //    rchtxbx_output.AppendText("Currency 2 Letter Code = " + data["Currency2LetterName"].InnerText + "\r");
 
-                if (data["Currency3LetterName"].InnerText != "")
-                    rchtxbx_output.AppendText("Currency 3 Letter Code = " + data["Currency3LetterName"].InnerText + "\r");
+                //if (data["Currency3LetterName"].InnerText != "")
+                //    rchtxbx_output.AppendText("Currency 3 Letter Code = " + data["Currency3LetterName"].InnerText + "\r");
 
-                if (data["CurrencyNumber"].InnerText != "")
-                    rchtxbx_output.AppendText("Currency Number = " + data["CurrencyNumber"].InnerText + "\r");
+                //if (data["CurrencyNumber"].InnerText != "")
+                //    rchtxbx_output.AppendText("Currency Number = " + data["CurrencyNumber"].InnerText + "\r");
 
-                if (data["CurrencyMinorUnits"].InnerText != "")
-                    rchtxbx_output.AppendText("Minor Units = " + data["CurrencyMinorUnits"].InnerText + "\r");
+                //if (data["CurrencyMinorUnits"].InnerText != "")
+                //    rchtxbx_output.AppendText("Minor Units = " + data["CurrencyMinorUnits"].InnerText + "\r");
 
-                if (data["CurrencySymbol"].InnerText != "")
-                    rchtxbx_output.AppendText("Currency Symbol = " + data["CurrencySymbol"].InnerText + "\r\r\r");
+                //if (data["CurrencySymbol"].InnerText != "")
+                //    rchtxbx_output.AppendText("Currency Symbol = " + data["CurrencySymbol"].InnerText + "\r\r\r");
+
+
+                string _currencydata = "Country Name = " + data["CountryName"].InnerText + "\r\n" +
+                                      "Currency Name = " + data["CurrencyName"].InnerText + "\r" +
+                                      "Currency 2 Letter Code = " + data["Currency2LetterName"].InnerText + "\r" +
+                                      "Currency 3 Letter Code = " + data["Currency3LetterName"].InnerText + "\r" +
+                                      "Currency Number = " + data["CurrencyNumber"].InnerText + "\r" +
+                                      "Minor Units = " + data["CurrencyMinorUnits"].InnerText + "\r" +
+                                      "Currency Symbol = " + data["CurrencySymbol"].InnerText;
+
+
+               int index = dgv_data.Rows.Add();
+                dgv_data.Rows[index].Cells["_flag"].Value = (Image)Resources.ResourceManager.GetObject(data["Currency2LetterName"].InnerText.ToLower());
+                dgv_data.Rows[index].Cells["CurrencyData"].Value = _currencydata;
+
+                //_flag
+                //    CurrencyData
+                //banknote_f
+                //    banknote_b
+
+               
             }
         }
     }
