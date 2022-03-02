@@ -113,13 +113,16 @@ namespace world_currency
                int index = dgv_data.Rows.Add();
                 dgv_data.Rows[index].Cells["_flag"].Value = (Image)Resources.ResourceManager.GetObject(data["Currency2LetterName"].InnerText.ToLower());
                 dgv_data.Rows[index].Cells["CurrencyData"].Value = _currencydata;
+                dgv_data.Rows[index].Cells["banknote_f"].Value = (Image)Resources.ResourceManager.GetObject("_" + data["CurrencyNumber"].InnerText.ToLower() + "_f");
+                dgv_data.Rows[index].Cells["banknote_b"].Value = (Image)Resources.ResourceManager.GetObject("_" + data["CurrencyNumber"].InnerText.ToLower() + "_b");
+
 
                 //_flag
                 //    CurrencyData
                 //banknote_f
                 //    banknote_b
 
-               
+
             }
         }
     }

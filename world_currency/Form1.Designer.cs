@@ -757,6 +757,7 @@ namespace world_currency
             // 
             this.banknote_f.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.banknote_f.HeaderText = "Banknote Front";
+            this.banknote_f.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
             this.banknote_f.MinimumWidth = 8;
             this.banknote_f.Name = "banknote_f";
             this.banknote_f.ReadOnly = true;
@@ -766,6 +767,7 @@ namespace world_currency
             // 
             this.banknote_b.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.banknote_b.HeaderText = "Banknote Back";
+            this.banknote_b.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
             this.banknote_b.MinimumWidth = 8;
             this.banknote_b.Name = "banknote_b";
             this.banknote_b.ReadOnly = true;

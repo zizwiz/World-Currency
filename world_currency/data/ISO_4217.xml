@@ -22,7 +22,7 @@
 		<CurrencyName>Lek</CurrencyName>
 		<Currency2LetterName>AL</Currency2LetterName>
 		<Currency3LetterName>ALL</Currency3LetterName>
-		<CurrencyNumber>8</CurrencyNumber>
+		<CurrencyNumber>008</CurrencyNumber>
 		<CurrencyMinorUnits>2</CurrencyMinorUnits>
 		<CurrencySymbol>Lek</CurrencySymbol>
 	</CurrencyBlock>
@@ -31,7 +31,7 @@
 		<CurrencyName>Algerian Dinar</CurrencyName>
 		<Currency2LetterName>DZ</Currency2LetterName>
 		<Currency3LetterName>DZD</Currency3LetterName>
-		<CurrencyNumber>12</CurrencyNumber>
+		<CurrencyNumber>012</CurrencyNumber>
 		<CurrencyMinorUnits>2</CurrencyMinorUnits>
 		<CurrencySymbol></CurrencySymbol>
 	</CurrencyBlock>
@@ -85,7 +85,7 @@
 		<CurrencyName>Argentine Peso</CurrencyName>
 		<Currency2LetterName>AR</Currency2LetterName>
 		<Currency3LetterName>ARS</Currency3LetterName>
-		<CurrencyNumber>32</CurrencyNumber>
+		<CurrencyNumber>032</CurrencyNumber>
 		<CurrencyMinorUnits>2</CurrencyMinorUnits>
 		<CurrencySymbol>$</CurrencySymbol>
 	</CurrencyBlock>
@@ -94,7 +94,7 @@
 		<CurrencyName>Armenian Dram</CurrencyName>
 		<Currency2LetterName>AM</Currency2LetterName>
 		<Currency3LetterName>AMD</Currency3LetterName>
-		<CurrencyNumber>51</CurrencyNumber>
+		<CurrencyNumber>051</CurrencyNumber>
 		<CurrencyMinorUnits>2</CurrencyMinorUnits>
 		<CurrencySymbol></CurrencySymbol>
 	</CurrencyBlock>
@@ -112,7 +112,7 @@
 		<CurrencyName>Australian Dollar</CurrencyName>
 		<Currency2LetterName>AU</Currency2LetterName>
 		<Currency3LetterName>AUD</Currency3LetterName>
-		<CurrencyNumber>36</CurrencyNumber>
+		<CurrencyNumber>036</CurrencyNumber>
 		<CurrencyMinorUnits>2</CurrencyMinorUnits>
 		<CurrencySymbol>$</CurrencySymbol>
 	</CurrencyBlock>
@@ -139,7 +139,7 @@
 		<CurrencyName>Bahamian Dollar</CurrencyName>
 		<Currency2LetterName>BS</Currency2LetterName>
 		<Currency3LetterName>BSD</Currency3LetterName>
-		<CurrencyNumber>44</CurrencyNumber>
+		<CurrencyNumber>044</CurrencyNumber>
 		<CurrencyMinorUnits>2</CurrencyMinorUnits>
 		<CurrencySymbol>$</CurrencySymbol>
 	</CurrencyBlock>
@@ -148,7 +148,7 @@
 		<CurrencyName>Bahraini Dinar</CurrencyName>
 		<Currency2LetterName>BH</Currency2LetterName>
 		<Currency3LetterName>BHD</Currency3LetterName>
-		<CurrencyNumber>48</CurrencyNumber>
+		<CurrencyNumber>048</CurrencyNumber>
 		<CurrencyMinorUnits>3</CurrencyMinorUnits>
 		<CurrencySymbol></CurrencySymbol>
 	</CurrencyBlock>
@@ -157,7 +157,7 @@
 		<CurrencyName>Taka</CurrencyName>
 		<Currency2LetterName>BD</Currency2LetterName>
 		<Currency3LetterName>BDT</Currency3LetterName>
-		<CurrencyNumber>50</CurrencyNumber>
+		<CurrencyNumber>050</CurrencyNumber>
 		<CurrencyMinorUnits>2</CurrencyMinorUnits>
 		<CurrencySymbol></CurrencySymbol>
 	</CurrencyBlock>
@@ -166,7 +166,7 @@
 		<CurrencyName>Barbados Dollar</CurrencyName>
 		<Currency2LetterName>BB</Currency2LetterName>
 		<Currency3LetterName>BBD</Currency3LetterName>
-		<CurrencyNumber>52</CurrencyNumber>
+		<CurrencyNumber>052</CurrencyNumber>
 		<CurrencyMinorUnits>2</CurrencyMinorUnits>
 		<CurrencySymbol>$</CurrencySymbol>
 	</CurrencyBlock>
@@ -193,7 +193,7 @@
 		<CurrencyName>Belize Dollar</CurrencyName>
 		<Currency2LetterName>BZ</Currency2LetterName>
 		<Currency3LetterName>BZD</Currency3LetterName>
-		<CurrencyNumber>84</CurrencyNumber>
+		<CurrencyNumber>084</CurrencyNumber>
 		<CurrencyMinorUnits>2</CurrencyMinorUnits>
 		<CurrencySymbol>BZ$</CurrencySymbol>
 	</CurrencyBlock>
@@ -211,7 +211,7 @@
 		<CurrencyName>Bermudian Dollar</CurrencyName>
 		<Currency2LetterName>BM</Currency2LetterName>
 		<Currency3LetterName>BMD</Currency3LetterName>
-		<CurrencyNumber>60</CurrencyNumber>
+		<CurrencyNumber>060</CurrencyNumber>
 		<CurrencyMinorUnits>2</CurrencyMinorUnits>
 		<CurrencySymbol>$</CurrencySymbol>
 	</CurrencyBlock>
@@ -229,7 +229,7 @@
 		<CurrencyName>Ngultrum</CurrencyName>
 		<Currency2LetterName>BT</Currency2LetterName>
 		<Currency3LetterName>BTN</Currency3LetterName>
-		<CurrencyNumber>64</CurrencyNumber>
+		<CurrencyNumber>064</CurrencyNumber>
 		<CurrencyMinorUnits>2</CurrencyMinorUnits>
 		<CurrencySymbol></CurrencySymbol>
 	</CurrencyBlock>
@@ -238,7 +238,7 @@
 		<CurrencyName>Boliviano</CurrencyName>
 		<Currency2LetterName>BO</Currency2LetterName>
 		<Currency3LetterName>BOB</Currency3LetterName>
-		<CurrencyNumber>68</CurrencyNumber>
+		<CurrencyNumber>068</CurrencyNumber>
 		<CurrencyMinorUnits>2</CurrencyMinorUnits>
 		<CurrencySymbol>$b</CurrencySymbol>
 	</CurrencyBlock>
@@ -274,7 +274,7 @@
 		<CurrencyName>Pula</CurrencyName>
 		<Currency2LetterName>BW</Currency2LetterName>
 		<Currency3LetterName>BWP</Currency3LetterName>
-		<CurrencyNumber>72</CurrencyNumber>
+		<CurrencyNumber>072</CurrencyNumber>
 		<CurrencyMinorUnits>2</CurrencyMinorUnits>
 		<CurrencySymbol>P</CurrencySymbol>
 	</CurrencyBlock>
@@ -310,7 +310,7 @@
 		<CurrencyName>Brunei Dollar</CurrencyName>
 		<Currency2LetterName>BN</Currency2LetterName>
 		<Currency3LetterName>BND</Currency3LetterName>
-		<CurrencyNumber>96</CurrencyNumber>
+		<CurrencyNumber>096</CurrencyNumber>
 		<CurrencyMinorUnits>2</CurrencyMinorUnits>
 		<CurrencySymbol>$</CurrencySymbol>
 	</CurrencyBlock>
@@ -436,7 +436,7 @@
 		<CurrencyName>Australian Dollar</CurrencyName>
 		<Currency2LetterName>CX</Currency2LetterName>
 		<Currency3LetterName>AUD</Currency3LetterName>
-		<CurrencyNumber>36</CurrencyNumber>
+		<CurrencyNumber>036</CurrencyNumber>
 		<CurrencyMinorUnits>2</CurrencyMinorUnits>
 		<CurrencySymbol>$</CurrencySymbol>
 	</CurrencyBlock>
@@ -445,7 +445,7 @@
 		<CurrencyName>Australian Dollar</CurrencyName>
 		<Currency2LetterName>CC</Currency2LetterName>
 		<Currency3LetterName>AUD</Currency3LetterName>
-		<CurrencyNumber>36</CurrencyNumber>
+		<CurrencyNumber>036</CurrencyNumber>
 		<CurrencyMinorUnits>2</CurrencyMinorUnits>
 		<CurrencySymbol>$</CurrencySymbol>
 	</CurrencyBlock>
@@ -940,7 +940,7 @@
 		<CurrencyName>Australian Dollar</CurrencyName>
 		<Currency2LetterName>HM</Currency2LetterName>
 		<Currency3LetterName>AUD</Currency3LetterName>
-		<CurrencyNumber>36</CurrencyNumber>
+		<CurrencyNumber>036</CurrencyNumber>
 		<CurrencyMinorUnits>2</CurrencyMinorUnits>
 		<CurrencySymbol>$</CurrencySymbol>
 	</CurrencyBlock>
@@ -1129,7 +1129,7 @@
 		<CurrencyName>Australian Dollar</CurrencyName>
 		<Currency2LetterName>KI</Currency2LetterName>
 		<Currency3LetterName>AUD</Currency3LetterName>
-		<CurrencyNumber>36</CurrencyNumber>
+		<CurrencyNumber>036</CurrencyNumber>
 		<CurrencyMinorUnits>2</CurrencyMinorUnits>
 		<CurrencySymbol>$</CurrencySymbol>
 	</CurrencyBlock>
@@ -1507,7 +1507,7 @@
 		<CurrencyName>Australian Dollar</CurrencyName>
 		<Currency2LetterName>NR</Currency2LetterName>
 		<Currency3LetterName>AUD</Currency3LetterName>
-		<CurrencyNumber>36</CurrencyNumber>
+		<CurrencyNumber>036</CurrencyNumber>
 		<CurrencyMinorUnits>2</CurrencyMinorUnits>
 		<CurrencySymbol>$</CurrencySymbol>
 	</CurrencyBlock>
@@ -1588,7 +1588,7 @@
 		<CurrencyName>Australian Dollar</CurrencyName>
 		<Currency2LetterName>NF</Currency2LetterName>
 		<Currency3LetterName>AUD</Currency3LetterName>
-		<CurrencyNumber>36</CurrencyNumber>
+		<CurrencyNumber>036</CurrencyNumber>
 		<CurrencyMinorUnits>2</CurrencyMinorUnits>
 		<CurrencySymbol>$</CurrencySymbol>
 	</CurrencyBlock>
@@ -1966,7 +1966,7 @@
 		<CurrencyName>Solomon Islands Dollar</CurrencyName>
 		<Currency2LetterName>SB</Currency2LetterName>
 		<Currency3LetterName>SBD</Currency3LetterName>
-		<CurrencyNumber>90</CurrencyNumber>
+		<CurrencyNumber>090</CurrencyNumber>
 		<CurrencyMinorUnits>2</CurrencyMinorUnits>
 		<CurrencySymbol>$</CurrencySymbol>
 	</CurrencyBlock>
@@ -2209,7 +2209,7 @@
 		<CurrencyName>Australian Dollar</CurrencyName>
 		<Currency2LetterName>TV</Currency2LetterName>
 		<Currency3LetterName>AUD</Currency3LetterName>
-		<CurrencyNumber>36</CurrencyNumber>
+		<CurrencyNumber>036</CurrencyNumber>
 		<CurrencyMinorUnits>2</CurrencyMinorUnits>
 		<CurrencySymbol>$</CurrencySymbol>
 	</CurrencyBlock>
