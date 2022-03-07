@@ -513,7 +513,7 @@
 		<CurrencySymbol>₡</CurrencySymbol>
 	</CurrencyBlock>
 	<CurrencyBlock>
-		<CountryName>CÔTE D'IVOIRE</CountryName>
+		<CountryName>CÔTE D`IVOIRE</CountryName>
 		<CurrencyName>CFA Franc BCEAO</CurrencyName>
 		<Currency2LetterName>CI</Currency2LetterName>
 		<Currency3LetterName>XOF</Currency3LetterName>
@@ -1395,7 +1395,7 @@
 		<CurrencySymbol>$</CurrencySymbol>
 	</CurrencyBlock>
 	<CurrencyBlock>
-		<CountryName>MEXICO</CountryName>
+		<CountryName>_MEXICO</CountryName>
 		<CurrencyName>Mexican Unidad de Inversion (UDI)</CurrencyName>
 		<Currency2LetterName>MX</Currency2LetterName>
 		<Currency3LetterName>MXV</Currency3LetterName>
@@ -1642,7 +1642,7 @@
 		<CurrencyName>No universal currency</CurrencyName>
 		<Currency2LetterName>PS</Currency2LetterName>
 		<Currency3LetterName></Currency3LetterName>
-		<CurrencyNumber></CurrencyNumber>
+		<CurrencyNumber>000</CurrencyNumber>
 		<CurrencyMinorUnits></CurrencyMinorUnits>
 		<CurrencySymbol></CurrencySymbol>
 	</CurrencyBlock>
@@ -1993,7 +1993,7 @@
 		<CurrencyName>No universal currency</CurrencyName>
 		<Currency2LetterName>GS</Currency2LetterName>
 		<Currency3LetterName></Currency3LetterName>
-		<CurrencyNumber></CurrencyNumber>
+		<CurrencyNumber>000</CurrencyNumber>
 		<CurrencyMinorUnits></CurrencyMinorUnits>
 		<CurrencySymbol></CurrencySymbol>
 	</CurrencyBlock>

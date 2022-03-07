@@ -63,6 +63,26 @@ namespace world_currency.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _000_b {
+            get {
+                object obj = ResourceManager.GetObject("_000_b", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _000_f {
+            get {
+                object obj = ResourceManager.GetObject("_000_f", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _008_b {
             get {
                 object obj = ResourceManager.GetObject("_008_b", resourceCulture);
@@ -156,6 +176,26 @@ namespace world_currency.Properties {
         internal static System.Drawing.Bitmap _044_f {
             get {
                 object obj = ResourceManager.GetObject("_044_f", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _048_b {
+            get {
+                object obj = ResourceManager.GetObject("_048_b", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _048_f {
+            get {
+                object obj = ResourceManager.GetObject("_048_f", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -783,6 +823,26 @@ namespace world_currency.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _242_b {
+            get {
+                object obj = ResourceManager.GetObject("_242_b", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _242_f {
+            get {
+                object obj = ResourceManager.GetObject("_242_f", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _262_b {
             get {
                 object obj = ResourceManager.GetObject("_262_b", resourceCulture);
@@ -1156,6 +1216,26 @@ namespace world_currency.Properties {
         internal static System.Drawing.Bitmap _398_f {
             get {
                 object obj = ResourceManager.GetObject("_398_f", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _400_b {
+            get {
+                object obj = ResourceManager.GetObject("_400_b", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _400_f {
+            get {
+                object obj = ResourceManager.GetObject("_400_f", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1603,6 +1683,26 @@ namespace world_currency.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _532_b {
+            get {
+                object obj = ResourceManager.GetObject("_532_b", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _532_f {
+            get {
+                object obj = ResourceManager.GetObject("_532_f", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _533_b {
             get {
                 object obj = ResourceManager.GetObject("_533_b", resourceCulture);
@@ -1736,6 +1836,26 @@ namespace world_currency.Properties {
         internal static System.Drawing.Bitmap _586_f {
             get {
                 object obj = ResourceManager.GetObject("_586_f", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _590_b {
+            get {
+                object obj = ResourceManager.GetObject("_590_b", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _590_f {
+            get {
+                object obj = ResourceManager.GetObject("_590_f", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3076,46 +3196,6 @@ namespace world_currency.Properties {
         internal static System.Drawing.Bitmap _986_f {
             get {
                 object obj = ResourceManager.GetObject("_986_f", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _as {
-            get {
-                object obj = ResourceManager.GetObject("_as", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _do {
-            get {
-                object obj = ResourceManager.GetObject("_do", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _in {
-            get {
-                object obj = ResourceManager.GetObject("_in", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _is {
-            get {
-                object obj = ResourceManager.GetObject("_is", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

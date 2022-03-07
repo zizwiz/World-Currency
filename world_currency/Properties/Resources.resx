@@ -148,6 +148,9 @@
   <data name="ar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\data\flags\ar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="as" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\data\flags\as.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="at" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\data\flags\at.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -295,6 +298,9 @@
   <data name="dm" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\data\flags\dm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="do" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\data\flags\do.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="dz" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\data\flags\dz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -427,6 +433,9 @@
   <data name="im" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\data\flags\im.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="in" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\data\flags\in.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="io" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\data\flags\io.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -435,6 +444,9 @@
   </data>
   <data name="ir" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\data\flags\ir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="is" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\data\flags\is.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ISO_4217" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\data\iso_4217.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
@@ -859,6 +871,12 @@
   <data name="zw" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\data\flags\zw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="_000_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\data\money\000_b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_000_f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\data\money\000_f.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="_008_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\data\money\008_b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -888,6 +906,12 @@
   </data>
   <data name="_044_f" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\data\money\044_f.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_048_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\data\money\048_b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_048_f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\data\money\048_f.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_050_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\data\money\050_b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1075,6 +1099,12 @@
   <data name="_238_f" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\data\money\238_f.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="_242_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\data\money\242_b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_242_f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\data\money\242_f.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="_262_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\data\money\262_b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -1188,6 +1218,12 @@
   </data>
   <data name="_398_f" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\data\money\398_f.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_400_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\data\money\400_b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_400_f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\data\money\400_f.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_404_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\data\money\404_b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1321,6 +1357,12 @@
   <data name="_524_f" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\data\money\524_f.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="_532_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\data\money\532_b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_532_f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\data\money\532_f.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="_533_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\data\money\533_b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -1362,6 +1404,12 @@
   </data>
   <data name="_586_f" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\data\money\586_f.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_590_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\data\money\590_b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_590_f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\data\money\590_f.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_598_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\data\money\598_b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

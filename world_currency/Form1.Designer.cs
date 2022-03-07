@@ -44,15 +44,15 @@ namespace world_currency
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.dgv_data = new System.Windows.Forms.DataGridView();
+            this._flag = new System.Windows.Forms.DataGridViewImageColumn();
+            this.CurrencyData = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.banknote_f = new System.Windows.Forms.DataGridViewImageColumn();
+            this.banknote_b = new System.Windows.Forms.DataGridViewImageColumn();
             this.panel2 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this._flag = new System.Windows.Forms.DataGridViewImageColumn();
-            this.CurrencyData = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.banknote_f = new System.Windows.Forms.DataGridViewImageColumn();
-            this.banknote_b = new System.Windows.Forms.DataGridViewImageColumn();
             this.groupBox1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -250,7 +250,7 @@ namespace world_currency
             "994",
             "997",
             "999"});
-            this.cmbobx_currency_number.Location = new System.Drawing.Point(243, 16);
+            this.cmbobx_currency_number.Location = new System.Drawing.Point(228, 18);
             this.cmbobx_currency_number.Name = "cmbobx_currency_number";
             this.cmbobx_currency_number.Size = new System.Drawing.Size(454, 21);
             this.cmbobx_currency_number.TabIndex = 2;
@@ -302,8 +302,6 @@ namespace world_currency
             "BENIN",
             "BERMUDA",
             "BHUTAN",
-            "BHUTAN",
-            "BOLIVIA (PLURINATIONAL STATE OF)",
             "BOLIVIA (PLURINATIONAL STATE OF)",
             "BONAIRE SINT EUSTATIUS AND SABA",
             "BOSNIA AND HERZEGOVINA",
@@ -323,20 +321,17 @@ namespace world_currency
             "CENTRAL AFRICAN REPUBLIC (THE)",
             "CHAD",
             "CHILE",
-            "CHILE",
             "CHINA",
             "CHRISTMAS ISLAND",
             "COCOS (KEELING) ISLANDS (THE)",
-            "COLOMBIA",
             "COLOMBIA",
             "COMOROS (THE)",
             "CONGO (THE DEMOCRATIC REPUBLIC OF THE)",
             "CONGO (THE)",
             "COOK ISLANDS (THE)",
             "COSTA RICA",
-            "CÔTE D\'IVOIRE",
+            "CÔTE D`IVOIRE",
             "CROATIA",
-            "CUBA",
             "CUBA",
             "CURAÇAO",
             "CYPRUS",
@@ -347,7 +342,6 @@ namespace world_currency
             "DOMINICAN REPUBLIC (THE)",
             "ECUADOR",
             "EGYPT",
-            "EL SALVADOR",
             "EL SALVADOR",
             "EQUATORIAL GUINEA",
             "ERITREA",
@@ -380,7 +374,6 @@ namespace world_currency
             "GUINEA-BISSAU",
             "GUYANA",
             "HAITI",
-            "HAITI",
             "HEARD ISLAND AND McDONALD ISLANDS",
             "HOLY SEE (THE)",
             "HONDURAS",
@@ -389,7 +382,6 @@ namespace world_currency
             "ICELAND",
             "INDIA",
             "INDONESIA",
-            "INTERNATIONAL MONETARY FUND (IMF) ",
             "IRAN (ISLAMIC REPUBLIC OF)",
             "IRAQ",
             "IRELAND",
@@ -411,7 +403,6 @@ namespace world_currency
             "LATVIA",
             "LEBANON",
             "LESOTHO",
-            "LESOTHO",
             "LIBERIA",
             "LIBYA",
             "LIECHTENSTEIN",
@@ -430,8 +421,6 @@ namespace world_currency
             "MAURITANIA",
             "MAURITIUS",
             "MAYOTTE",
-            "MEMBER COUNTRIES OF THE AFRICAN DEVELOPMENT BANK GROUP",
-            "MEXICO",
             "MEXICO",
             "MICRONESIA (FEDERATED STATES OF)",
             "MOLDOVA (THE REPUBLIC OF)",
@@ -442,7 +431,6 @@ namespace world_currency
             "MOROCCO",
             "MOZAMBIQUE",
             "MYANMAR",
-            "NAMIBIA",
             "NAMIBIA",
             "NAURU",
             "NEPAL",
@@ -460,7 +448,6 @@ namespace world_currency
             "PAKISTAN",
             "PALAU",
             "PALESTINE STATE OF",
-            "PANAMA",
             "PANAMA",
             "PAPUA NEW GUINEA",
             "PARAGUAY",
@@ -492,7 +479,6 @@ namespace world_currency
             "SIERRA LEONE",
             "SINGAPORE",
             "SINT MAARTEN (DUTCH PART)",
-            "SISTEMA UNITARIO DE COMPENSACION REGIONAL DE PAGOS \"SUCRE\"",
             "SLOVAKIA",
             "SLOVENIA",
             "SOLOMON ISLANDS",
@@ -506,8 +492,6 @@ namespace world_currency
             "SURINAME",
             "SVALBARD AND JAN MAYEN",
             "SWEDEN",
-            "SWITZERLAND",
-            "SWITZERLAND",
             "SWITZERLAND",
             "SYRIAN ARAB REPUBLIC",
             "TAIWAN (PROVINCE OF CHINA)",
@@ -530,13 +514,9 @@ namespace world_currency
             "UNITED REPUBLIC OF TANZANIA",
             "UNITED STATES MINOR OUTLYING ISLANDS (THE)",
             "UNITED STATES OF AMERICA (THE)",
-            "UNITED STATES OF AMERICA (THE)",
-            "URUGUAY",
-            "URUGUAY",
             "URUGUAY",
             "UZBEKISTAN",
             "VANUATU",
-            "VENEZUELA (BOLIVARIAN REPUBLIC OF)",
             "VENEZUELA (BOLIVARIAN REPUBLIC OF)",
             "VIET NAM",
             "VIRGIN ISLANDS (BRITISH)",
@@ -545,17 +525,7 @@ namespace world_currency
             "WESTERN SAHARA",
             "YEMEN",
             "ZAMBIA",
-            "ZIMBABWE",
-            "ZZ01_Bond Markets Unit European_EURCO",
-            "ZZ02_Bond Markets Unit European_EMU-6",
-            "ZZ03_Bond Markets Unit European_EUA-9",
-            "ZZ04_Bond Markets Unit European_EUA-17",
-            "ZZ06_Testing_Code",
-            "ZZ07_No_Currency",
-            "ZZ08_Gold",
-            "ZZ09_Palladium",
-            "ZZ10_Platinum",
-            "ZZ11_Silver"});
+            "ZIMBABWE"});
             this.cmbobx_country.Location = new System.Drawing.Point(243, 16);
             this.cmbobx_country.Name = "cmbobx_country";
             this.cmbobx_country.Size = new System.Drawing.Size(454, 21);
@@ -677,6 +647,44 @@ namespace world_currency
             this.dgv_data.Size = new System.Drawing.Size(988, 425);
             this.dgv_data.TabIndex = 2;
             // 
+            // _flag
+            // 
+            this._flag.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this._flag.HeaderText = "Flag";
+            this._flag.MinimumWidth = 8;
+            this._flag.Name = "_flag";
+            this._flag.ReadOnly = true;
+            this._flag.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // CurrencyData
+            // 
+            this.CurrencyData.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.CurrencyData.HeaderText = "Currency Data";
+            this.CurrencyData.MinimumWidth = 8;
+            this.CurrencyData.Name = "CurrencyData";
+            this.CurrencyData.ReadOnly = true;
+            this.CurrencyData.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            // 
+            // banknote_f
+            // 
+            this.banknote_f.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.banknote_f.HeaderText = "Banknote Front";
+            this.banknote_f.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.banknote_f.MinimumWidth = 8;
+            this.banknote_f.Name = "banknote_f";
+            this.banknote_f.ReadOnly = true;
+            this.banknote_f.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // banknote_b
+            // 
+            this.banknote_b.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.banknote_b.HeaderText = "Banknote Back";
+            this.banknote_b.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.banknote_b.MinimumWidth = 8;
+            this.banknote_b.Name = "banknote_b";
+            this.banknote_b.ReadOnly = true;
+            this.banknote_b.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
             // panel2
             // 
             this.panel2.Controls.Add(this.tableLayoutPanel2);
@@ -734,44 +742,6 @@ namespace world_currency
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(794, 61);
             this.panel5.TabIndex = 2;
-            // 
-            // _flag
-            // 
-            this._flag.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this._flag.HeaderText = "Flag";
-            this._flag.MinimumWidth = 8;
-            this._flag.Name = "_flag";
-            this._flag.ReadOnly = true;
-            this._flag.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // CurrencyData
-            // 
-            this.CurrencyData.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.CurrencyData.HeaderText = "Currency Data";
-            this.CurrencyData.MinimumWidth = 8;
-            this.CurrencyData.Name = "CurrencyData";
-            this.CurrencyData.ReadOnly = true;
-            this.CurrencyData.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            // 
-            // banknote_f
-            // 
-            this.banknote_f.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.banknote_f.HeaderText = "Banknote Front";
-            this.banknote_f.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
-            this.banknote_f.MinimumWidth = 8;
-            this.banknote_f.Name = "banknote_f";
-            this.banknote_f.ReadOnly = true;
-            this.banknote_f.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // banknote_b
-            // 
-            this.banknote_b.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.banknote_b.HeaderText = "Banknote Back";
-            this.banknote_b.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
-            this.banknote_b.MinimumWidth = 8;
-            this.banknote_b.Name = "banknote_b";
-            this.banknote_b.ReadOnly = true;
-            this.banknote_b.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             // 
             // Form1
             // 

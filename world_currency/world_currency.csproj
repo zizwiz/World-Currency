@@ -336,6 +336,8 @@
     <Content Include="data\flags\zm.png" />
     <Content Include="data\flags\zw.png" />
     <Content Include="data\ISO_4217.xml" />
+    <Content Include="data\money\000_b.png" />
+    <Content Include="data\money\000_f.png" />
     <Content Include="data\money\008_b.png" />
     <Content Include="data\money\008_f.png" />
     <Content Include="data\money\012_b.png" />
@@ -346,6 +348,8 @@
     <Content Include="data\money\036_f.png" />
     <Content Include="data\money\044_b.png" />
     <Content Include="data\money\044_f.png" />
+    <Content Include="data\money\048_b.png" />
+    <Content Include="data\money\048_f.png" />
     <Content Include="data\money\050_b.png" />
     <Content Include="data\money\050_f.png" />
     <Content Include="data\money\051_b.png" />
@@ -408,6 +412,8 @@
     <Content Include="data\money\232_f.png" />
     <Content Include="data\money\238_b.png" />
     <Content Include="data\money\238_f.png" />
+    <Content Include="data\money\242_b.png" />
+    <Content Include="data\money\242_f.png" />
     <Content Include="data\money\262_b.png" />
     <Content Include="data\money\262_f.png" />
     <Content Include="data\money\270_b.png" />
@@ -446,6 +452,8 @@
     <Content Include="data\money\392_f.png" />
     <Content Include="data\money\398_b.png" />
     <Content Include="data\money\398_f.png" />
+    <Content Include="data\money\400_b.png" />
+    <Content Include="data\money\400_f.png" />
     <Content Include="data\money\404_b.png" />
     <Content Include="data\money\404_f.png" />
     <Content Include="data\money\408_b.png" />
@@ -490,6 +498,8 @@
     <Content Include="data\money\516_f.png" />
     <Content Include="data\money\524_b.png" />
     <Content Include="data\money\524_f.png" />
+    <Content Include="data\money\532_b.png" />
+    <Content Include="data\money\532_f.png" />
     <Content Include="data\money\533_b.png" />
     <Content Include="data\money\533_f.png" />
     <Content Include="data\money\548_b.png" />
@@ -504,6 +514,8 @@
     <Content Include="data\money\578_f.png" />
     <Content Include="data\money\586_b.png" />
     <Content Include="data\money\586_f.png" />
+    <Content Include="data\money\590_b.png" />
+    <Content Include="data\money\590_f.png" />
     <Content Include="data\money\598_b.png" />
     <Content Include="data\money\598_f.png" />
     <Content Include="data\money\600_b.png" />
