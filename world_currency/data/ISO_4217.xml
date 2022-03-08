@@ -72,6 +72,15 @@
 		<CurrencySymbol>$</CurrencySymbol>
 	</CurrencyBlock>
 	<CurrencyBlock>
+		<CountryName>ANTARCTICA</CountryName>
+		<CurrencyName>No Universal Currency</CurrencyName>
+		<Currency2LetterName>AQ</Currency2LetterName>
+		<Currency3LetterName></Currency3LetterName>
+		<CurrencyNumber>000</CurrencyNumber>
+		<CurrencyMinorUnits></CurrencyMinorUnits>
+		<CurrencySymbol></CurrencySymbol>
+	</CurrencyBlock>
+	<CurrencyBlock>
 		<CountryName>ANTIGUA AND BARBUDA</CountryName>
 		<CurrencyName>East Caribbean Dollar</CurrencyName>
 		<Currency2LetterName>AG</Currency2LetterName>
@@ -414,7 +423,7 @@
 		<CurrencySymbol>$</CurrencySymbol>
 	</CurrencyBlock>
 	<CurrencyBlock>
-		<CountryName>CHILE</CountryName>
+		<CountryName>CHILE_</CountryName>
 		<CurrencyName>Unidad de Fomento</CurrencyName>
 		<Currency2LetterName>CL</Currency2LetterName>
 		<Currency3LetterName>CLF</Currency3LetterName>
@@ -459,7 +468,7 @@
 		<CurrencySymbol>$</CurrencySymbol>
 	</CurrencyBlock>
 	<CurrencyBlock>
-		<CountryName>COLOMBIA</CountryName>
+		<CountryName>COLOMBIA_</CountryName>
 		<CurrencyName>Unidad de Valor Real</CurrencyName>
 		<Currency2LetterName>CO</Currency2LetterName>
 		<Currency3LetterName>COU</Currency3LetterName>
@@ -540,7 +549,7 @@
 		<CurrencySymbol>₱</CurrencySymbol>
 	</CurrencyBlock>
 	<CurrencyBlock>
-		<CountryName>CUBA</CountryName>
+		<CountryName>CUBA_</CountryName>
 		<CurrencyName>Peso Convertible</CurrencyName>
 		<Currency2LetterName>CU</Currency2LetterName>
 		<Currency3LetterName>CUC</Currency3LetterName>
@@ -2070,7 +2079,7 @@
 		<CurrencySymbol>CHF</CurrencySymbol>
 	</CurrencyBlock>
 	<CurrencyBlock>
-		<CountryName>SWITZERLAND</CountryName>
+		<CountryName>SWITZERLAND_</CountryName>
 		<CurrencyName>WIR Euro</CurrencyName>
 		<Currency2LetterName>CH</Currency2LetterName>
 		<Currency3LetterName>CHE</Currency3LetterName>
@@ -2079,7 +2088,7 @@
 		<CurrencySymbol></CurrencySymbol>
 	</CurrencyBlock>
 	<CurrencyBlock>
-		<CountryName>SWITZERLAND</CountryName>
+		<CountryName>SWITZERLAND_</CountryName>
 		<CurrencyName>WIR Franc</CurrencyName>
 		<Currency2LetterName>CH</Currency2LetterName>
 		<Currency3LetterName>CHW</Currency3LetterName>
@@ -2277,7 +2286,7 @@
 		<CurrencySymbol>$</CurrencySymbol>
 	</CurrencyBlock>
 	<CurrencyBlock>
-		<CountryName>UNITED STATES OF AMERICA (THE)</CountryName>
+		<CountryName>UNITED STATES OF AMERICA (THE)_</CountryName>
 		<CurrencyName>US Dollar (Next day)</CurrencyName>
 		<Currency2LetterName>US</Currency2LetterName>
 		<Currency3LetterName>USN</Currency3LetterName>
@@ -2295,8 +2304,8 @@
 		<CurrencySymbol>$U</CurrencySymbol>
 	</CurrencyBlock>
 	<CurrencyBlock>
-		<CountryName>URUGUAY</CountryName>
-		<CurrencyName>Uruguay Peso en Unidades Indexadas (UI)</CurrencyName>
+		<CountryName>URUGUAY_</CountryName>
+		<CurrencyName>Uruguay Peso en Unidades Indexadas (UI)_</CurrencyName>
 		<Currency2LetterName>UY</Currency2LetterName>
 		<Currency3LetterName>UYI</Currency3LetterName>
 		<CurrencyNumber>940</CurrencyNumber>
@@ -2304,8 +2313,8 @@
 		<CurrencySymbol></CurrencySymbol>
 	</CurrencyBlock>
 	<CurrencyBlock>
-		<CountryName>URUGUAY</CountryName>
-		<CurrencyName>Unidad Previsional</CurrencyName>
+		<CountryName>URUGUAY_</CountryName>
+		<CurrencyName>Unidad Previsional_</CurrencyName>
 		<Currency2LetterName>UY</Currency2LetterName>
 		<Currency3LetterName>UYW</Currency3LetterName>
 		<CurrencyNumber>927</CurrencyNumber>
@@ -2331,7 +2340,7 @@
 		<CurrencySymbol></CurrencySymbol>
 	</CurrencyBlock>
 	<CurrencyBlock>
-		<CountryName>VENEZUELA (BOLIVARIAN REPUBLIC OF)</CountryName>
+		<CountryName>VENEZUELA (BOLIVARIAN REPUBLIC OF)_</CountryName>
 		<CurrencyName>Bolívar Soberano</CurrencyName>
 		<Currency2LetterName>VE</Currency2LetterName>
 		<Currency3LetterName>VES</Currency3LetterName>

@@ -69,6 +69,7 @@ namespace world_currency
             // 
             this.cmbobx_currency_number.FormattingEnabled = true;
             this.cmbobx_currency_number.Items.AddRange(new object[] {
+            "000",
             "008",
             "012",
             "032",
@@ -150,7 +151,6 @@ namespace world_currency
             "516",
             "524",
             "532",
-            "532",
             "533",
             "548",
             "554",
@@ -189,50 +189,31 @@ namespace world_currency
             "826",
             "834",
             "840",
-            "840",
             "858",
             "860",
             "882",
             "886",
             "901",
             "926",
-            "927",
-            "928",
             "929",
             "930",
-            "931",
             "932",
             "933",
             "934",
             "936",
             "938",
-            "940",
             "941",
             "943",
             "944",
             "946",
-            "947",
-            "948",
             "949",
             "950",
             "951",
             "952",
             "953",
-            "955",
-            "956",
-            "957",
-            "958",
-            "959",
-            "960",
-            "961",
-            "962",
-            "963",
-            "964",
-            "965",
             "967",
             "968",
             "969",
-            "970",
             "971",
             "972",
             "973",
@@ -240,7 +221,6 @@ namespace world_currency
             "976",
             "977",
             "978",
-            "979",
             "980",
             "981",
             "984",
@@ -248,9 +228,8 @@ namespace world_currency
             "986",
             "990",
             "994",
-            "997",
-            "999"});
-            this.cmbobx_currency_number.Location = new System.Drawing.Point(228, 18);
+            "997"});
+            this.cmbobx_currency_number.Location = new System.Drawing.Point(242, 16);
             this.cmbobx_currency_number.Name = "cmbobx_currency_number";
             this.cmbobx_currency_number.Size = new System.Drawing.Size(454, 21);
             this.cmbobx_currency_number.TabIndex = 2;
@@ -285,6 +264,7 @@ namespace world_currency
             "ANDORRA",
             "ANGOLA",
             "ANGUILLA",
+            "ANTARCTICA",
             "ANTIGUA AND BARBUDA",
             "ARGENTINA",
             "ARMENIA",
@@ -625,6 +605,7 @@ namespace world_currency
             this.dgv_data.AllowUserToAddRows = false;
             this.dgv_data.AllowUserToDeleteRows = false;
             this.dgv_data.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dgv_data.BackgroundColor = System.Drawing.Color.White;
             this.dgv_data.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_data.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this._flag,
@@ -643,6 +624,7 @@ namespace world_currency
             this.dgv_data.Location = new System.Drawing.Point(0, 0);
             this.dgv_data.Name = "dgv_data";
             this.dgv_data.ReadOnly = true;
+            this.dgv_data.RowHeadersVisible = false;
             this.dgv_data.RowHeadersWidth = 62;
             this.dgv_data.Size = new System.Drawing.Size(988, 425);
             this.dgv_data.TabIndex = 2;

@@ -27,6 +27,15 @@ namespace world_currency
             cmbobx_country.Visible = true;
             cmbobx_currency_number.Visible = false;
 
+            for (int i = 0; i < 4; i++)
+            {
+                dgv_data.Columns[i].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
+                dgv_data.Columns[i].HeaderCell.Style.Font = new Font("Microsoft Sans Serif", 7F, FontStyle.Bold);
+            }
+
+            Padding newPadding = new Padding(5, 5, 5, 5);
+            dgv_data.RowTemplate.DefaultCellStyle.Padding = newPadding;
+
             flag = true;
 
             //Get the data file from resources and write to file in same dir as the app.
@@ -116,6 +125,12 @@ namespace world_currency
                 dgv_data.Rows[index].Cells["banknote_f"].Value = (Image)Resources.ResourceManager.GetObject("_" + data["CurrencyNumber"].InnerText.ToLower() + "_f");
                 dgv_data.Rows[index].Cells["banknote_b"].Value = (Image)Resources.ResourceManager.GetObject("_" + data["CurrencyNumber"].InnerText.ToLower() + "_b");
 
+                dgv_data.Rows[index].Cells["_flag"].Style.BackColor = Color.LightCyan;
+                dgv_data.Rows[index].Cells["banknote_f"].Style.BackColor = Color.LightCyan;
+                dgv_data.Rows[index].Cells["banknote_b"].Style.BackColor = Color.LightCyan;
+                dgv_data.CurrentCell.Selected = false; //stops us having a blue selected cell.
+
+               
 
                 //_flag
                 //    CurrencyData
