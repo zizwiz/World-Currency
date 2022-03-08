@@ -225,10 +225,7 @@ namespace world_currency
             "981",
             "984",
             "985",
-            "986",
-            "990",
-            "994",
-            "997"});
+            "986"});
             this.cmbobx_currency_number.Location = new System.Drawing.Point(242, 16);
             this.cmbobx_currency_number.Name = "cmbobx_currency_number";
             this.cmbobx_currency_number.Size = new System.Drawing.Size(454, 21);

@@ -252,7 +252,7 @@
 		<CurrencySymbol>$b</CurrencySymbol>
 	</CurrencyBlock>
 	<CurrencyBlock>
-		<CountryName>BOLIVIA (PLURINATIONAL STATE OF)</CountryName>
+		<CountryName>BOLIVIA (PLURINATIONAL STATE OF)_</CountryName>
 		<CurrencyName>Mvdol</CurrencyName>
 		<Currency2LetterName>BO</Currency2LetterName>
 		<Currency3LetterName>BOV</Currency3LetterName>
