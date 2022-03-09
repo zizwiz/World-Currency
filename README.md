@@ -1,2 +1,2 @@
 # World-Currency
-Explains how to easily read XML and use the ISO 4217 currency file
+Project started as a way to learn how to easily read XML and use the ISO 4217 currency file. To make it useful I found an ISO file on currency and made a small project with it. In the App you can search for details on currencies of all counties and get the countries flag, image of a banknote and details of the currency. As the world is constantly changing so may their flag, banknotes and data. 
