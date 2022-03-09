@@ -8,3 +8,6 @@
 /.vs/World-Currency/v16
 /.vs
 /world_currency/obj/Release
+/world_currency/bin/Release
+/2symbols.txt
+/symbols.txt

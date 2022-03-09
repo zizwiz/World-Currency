@@ -1005,7 +1005,7 @@
 		<Currency3LetterName>INR</Currency3LetterName>
 		<CurrencyNumber>356</CurrencyNumber>
 		<CurrencyMinorUnits>2</CurrencyMinorUnits>
-		<CurrencySymbol></CurrencySymbol>
+		<CurrencySymbol>Rp</CurrencySymbol>
 	</CurrencyBlock>
 	<CurrencyBlock>
 		<CountryName>INDONESIA</CountryName>
@@ -1617,7 +1617,7 @@
 		<Currency3LetterName>NOK</Currency3LetterName>
 		<CurrencyNumber>578</CurrencyNumber>
 		<CurrencyMinorUnits>2</CurrencyMinorUnits>
-		<CurrencySymbol></CurrencySymbol>
+		<CurrencySymbol>kr</CurrencySymbol>
 	</CurrencyBlock>
 	<CurrencyBlock>
 		<CountryName>OMAN</CountryName>
@@ -1941,7 +1941,7 @@
 		<Currency3LetterName>ANG</Currency3LetterName>
 		<CurrencyNumber>532</CurrencyNumber>
 		<CurrencyMinorUnits>2</CurrencyMinorUnits>
-		<CurrencySymbol></CurrencySymbol>
+		<CurrencySymbol>ƒ</CurrencySymbol>
 	</CurrencyBlock>
 	<CurrencyBlock>
 		<CountryName>SISTEMA UNITARIO DE COMPENSACION REGIONAL DE PAGOS "SUCRE"</CountryName>
@@ -2058,7 +2058,7 @@
 		<Currency3LetterName>NOK</Currency3LetterName>
 		<CurrencyNumber>578</CurrencyNumber>
 		<CurrencyMinorUnits>2</CurrencyMinorUnits>
-		<CurrencySymbol></CurrencySymbol>
+		<CurrencySymbol>kr</CurrencySymbol>
 	</CurrencyBlock>
 	<CurrencyBlock>
 		<CountryName>SWEDEN</CountryName>
